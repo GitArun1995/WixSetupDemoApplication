@@ -1,0 +1,20 @@
+﻿<Window x:Class="ShellProject.Views.ShellProjectView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShellProject.Views"
+        mc:Ignorable="d"
+        xmlns:prism="http://prismlibrary.com/" 
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        ResizeMode="NoResize"
+    WindowState="Maximized"
+    WindowStyle="None"
+        Title="ShellProjectView" >
+    <Grid Background="Transparent">
+        <ContentControl
+            prism:RegionManager.RegionName="MainRegion"
+            Background="#fafafa"
+            Focusable="False" />
+    </Grid>
+</Window>

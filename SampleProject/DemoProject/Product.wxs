@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+  <Product Id="*"
+         Name="DemoApplication"
+         Language="1033"
+         Version="1.0.0"
+         Manufacturer="Default"
+         UpgradeCode="68244094-b57c-4f6f-bc6a-3cb94ff58c6f">
+
+
+    <Package InstallerVersion="200"
+             Compressed="yes"
+             InstallScope="perMachine"
+             Platform="x64"
+             SummaryCodepage="1252" />
+
+    <MajorUpgrade AllowSameVersionUpgrades="no"
+                  DowngradeErrorMessage="A newer version is already installed."
+                  Schedule="afterInstallInitialize" />
+
+    <MediaTemplate />
+
+    <WixVariable Id="WixUILicenseRtf"
+             Value="License.rtf" />
+
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+
+    <UIRef Id="WixUI_InstallDir" />
+
+    <!-- ICON FOR PROGRAMS LIST -->
+    
+
+    <Feature Id="ProductFeature" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+      <ComponentRef Id="DesktopShortcutComponent" />
+      <ComponentRef Id="StartMenuShortcutComponent" />
+    </Feature>
+
+  </Product>
+
+  <!-- DIRECTORY STRUCTURE -->
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+
+      <Directory Id="ProgramFiles64Folder">
+
+        <Directory Id="MANUFACTURERFOLDER" Name="Default Company">
+
+          <Directory Id="INSTALLFOLDER" Name="Demo" />
+
+        </Directory>
+
+      </Directory>
+
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="Demo" />
+      </Directory>
+
+      <Directory Id="DesktopFolder" Name="Desktop" />
+    </Directory>
+  </Fragment>
+
+  <Fragment>
+
+    <!-- DESKTOP SHORTCUT -->
+    <Component Id="DesktopShortcutComponent"
+               Guid="B1111111-2222-3333-4444-555555555555"
+               Directory="DesktopFolder"
+               Win64="yes">
+
+      <Shortcut Id="DesktopShortcut"
+                Name="Demo"
+                Target="[INSTALLFOLDER]ShellProject.exe"
+                WorkingDirectory="INSTALLFOLDER"
+                IconIndex="0"
+                Advertise="no" />
+
+      <RemoveFile Id="RemoveDesktopShortcut"
+                  Name="Demo.lnk"
+                  On="uninstall" />
+
+      <RegistryValue Root="HKCU"
+                     Key="Software\Default\Demo"
+                     Name="DesktopShortcut"
+                     Type="integer"
+                     Value="1"
+                     KeyPath="yes" />
+
+    </Component>
+
+    <!-- START MENU SHORTCUT -->
+    <Component Id="StartMenuShortcutComponent"
+               Guid="C1111111-2222-3333-4444-555555555555"
+               Directory="ApplicationProgramsFolder"
+               Win64="yes">
+
+      <Shortcut Id="StartMenuShortcut"
+                Name="Demo"
+                Target="[INSTALLFOLDER]ShellProject.exe"
+                WorkingDirectory="INSTALLFOLDER"
+                IconIndex="0"
+                Advertise="no" />
+
+      <RemoveFolder Id="RemoveStartMenuFolder"
+                    On="uninstall" />
+
+      <RegistryValue Root="HKCU"
+                     Key="Software\Default\Demo"
+                     Name="StartMenuShortcut"
+                     Type="integer"
+                     Value="1"
+                     KeyPath="yes" />
+
+    </Component>
+
+  </Fragment>
+</Wix>
