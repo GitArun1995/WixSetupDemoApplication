@@ -16,6 +16,8 @@ namespace DashBoard.ViewModels
         public DashBoardViewModel(IEventAggregator eventAggregator)
         {
             _eventAggregator = eventAggregator;
+            Console.WriteLine("Constructor called in DashBoard Project");
+
         }
         public bool IsNavigationTarget(NavigationContext navigationContext) => true;
     
@@ -28,6 +30,7 @@ namespace DashBoard.ViewModels
         {
             try
             {
+                Console.WriteLine("OnNavigated called in DashBoard Project");
                 Process.Start(@"SampleBackendApplication.exe");
 
             }

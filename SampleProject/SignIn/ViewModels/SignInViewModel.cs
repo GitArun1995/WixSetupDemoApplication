@@ -15,6 +15,7 @@ namespace SignIn.ViewModels
         public SignInViewModel(IEventAggregator eventAggregator)
         {
             _eventAggregator = eventAggregator;
+            Console.WriteLine("Constructor called in Sign Project");
         }
         public bool IsNavigationTarget(NavigationContext navigationContext) => true;
        
@@ -26,7 +27,7 @@ namespace SignIn.ViewModels
 
         public void OnNavigatedTo(NavigationContext navigationContext)
         {
-            
+            Console.WriteLine("OnNavigated called in Sign Project");
         }
     }
 }

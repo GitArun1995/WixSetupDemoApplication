@@ -5,62 +5,65 @@
     </Fragment>
     <Fragment>
         <ComponentGroup Id="ProductComponents">
-            <Component Win64="yes" Id="cmpEA4B14F800DE6A8404FF339BBD1529E1" Directory="INSTALLFOLDER" Guid="{EDDA3673-BFF5-4C1E-A058-520B57ECC47A}">
-                <File Id="fil9E8D1248BA63C312A75A53E1EFB2CF56" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\DashBoard.dll" />
+            <Component Win64 ="yes" Id="cmpEA4B14F800DE6A8404FF339BBD1529E1" Directory="INSTALLFOLDER" Guid="{5C08FC88-A039-4469-8AC5-098F718A0EA5}">
+                <File Id="fil9E8D1248BA63C312A75A53E1EFB2CF56" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\DashBoard.dll" />
             </Component>
-            <Component Win64="yes" Id="cmpF2F1C15A47B64F045101B1AE5B4D6054" Directory="INSTALLFOLDER" Guid="{2EAA2A6B-C6AB-4DCC-8BE5-05AA6EF1D398}">
-                <File Id="filC342596B66E98254BB6E1CFFE50AE4AA" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Microsoft.Practices.ServiceLocation.dll" />
+            <Component Win64 ="yes" Id="cmp6F9EE8D6EEB4903CA74790B44B51AF2B" Directory="INSTALLFOLDER" Guid="{A7605A74-5D37-4D95-877F-928B5A08D9B6}">
+                <File Id="filFA4F6B3880E201E53B53B9AC6B4F5D00" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\generate_components.bat" />
             </Component>
-            <Component Win64="yes" Id="cmp6B78BD7805E072190247D7503A0E7659" Directory="INSTALLFOLDER" Guid="{379D2533-FB01-4C95-941C-D6F5991F12AE}">
-                <File Id="fil97C995578E25C0BCDEA9A9A8984D1772" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Microsoft.Practices.ServiceLocation.xml" />
+            <Component Win64 ="yes" Id="cmpF2F1C15A47B64F045101B1AE5B4D6054" Directory="INSTALLFOLDER" Guid="{49B86983-C696-4A92-A08B-BB92B9BFD4EB}">
+                <File Id="filC342596B66E98254BB6E1CFFE50AE4AA" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Microsoft.Practices.ServiceLocation.dll" />
             </Component>
-            <Component Win64="yes"  Id="cmpAA856A11EEF773F32618D29332CADFD0" Directory="INSTALLFOLDER" Guid="{ACEDDFC7-4497-4732-9041-DF4B96AA5ED8}">
-                <File Id="filFBB0E3892854598F759A072FB8581B46" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Microsoft.Practices.Unity.Configuration.dll" />
+            <Component Win64 ="yes" Id="cmp6B78BD7805E072190247D7503A0E7659" Directory="INSTALLFOLDER" Guid="{7135DA5F-8B73-450C-B785-82FB9D50F2D0}">
+                <File Id="fil97C995578E25C0BCDEA9A9A8984D1772" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Microsoft.Practices.ServiceLocation.xml" />
             </Component>
-            <Component Win64="yes"  Id="cmp012342D81A705F0A2AFF3CBC8F1D57B5" Directory="INSTALLFOLDER" Guid="{E5BE0A0C-8BB5-490E-BCAE-EE1E711E9284}">
-                <File Id="fil3FB6253C70AF30707F6DEAD8F701E80B" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Microsoft.Practices.Unity.Configuration.xml" />
+            <Component Win64 ="yes" Id="cmpAA856A11EEF773F32618D29332CADFD0" Directory="INSTALLFOLDER" Guid="{9EA6572A-E64E-4F3E-B336-FBFCDC89C479}">
+                <File Id="filFBB0E3892854598F759A072FB8581B46" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Microsoft.Practices.Unity.Configuration.dll" />
             </Component>
-            <Component Win64="yes"  Id="cmp5141EFC969B8F1A9A0F1A01FFAD874BA" Directory="INSTALLFOLDER" Guid="{00A0B5DB-4F57-4A40-BA0A-3600C4645166}">
-                <File Id="filE0B15D2B280E1EDFAB44F822C47D44ED" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Microsoft.Practices.Unity.dll" />
+            <Component Win64 ="yes" Id="cmp012342D81A705F0A2AFF3CBC8F1D57B5" Directory="INSTALLFOLDER" Guid="{9F9A8CFA-5AF9-44E5-B08F-CCD7447364A3}">
+                <File Id="fil3FB6253C70AF30707F6DEAD8F701E80B" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Microsoft.Practices.Unity.Configuration.xml" />
             </Component>
-            <Component Win64="yes" Id="cmpB48E67D919D1C42D78781F3B5D6E4336" Directory="INSTALLFOLDER" Guid="{218542C2-7817-4BA7-B381-409BA7074ED3}">
-                <File Id="fil53564AE840DB9CE660FE1F02DB1CB224" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.dll" />
+            <Component Win64 ="yes" Id="cmp5141EFC969B8F1A9A0F1A01FFAD874BA" Directory="INSTALLFOLDER" Guid="{232201A1-CB4E-44F4-8D87-EC30F96722C7}">
+                <File Id="filE0B15D2B280E1EDFAB44F822C47D44ED" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Microsoft.Practices.Unity.dll" />
             </Component>
-            <Component Win64="yes" Id="cmp3DA176587AAA90C2405BEA615A4E9308" Directory="INSTALLFOLDER" Guid="{A68B1A53-D706-42DF-82A4-D05701A79D57}">
-                <File Id="fil5AD550400961120BFCFAD367E5C089E3" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.xml" />
+            <Component Win64 ="yes" Id="cmpB48E67D919D1C42D78781F3B5D6E4336" Directory="INSTALLFOLDER" Guid="{7C6A66B4-F1E0-4C1A-A456-113329C33B32}">
+                <File Id="fil53564AE840DB9CE660FE1F02DB1CB224" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.dll" />
             </Component>
-            <Component Win64="yes" Id="cmpCFA8F064372A36F9EE1B802542E54972" Directory="INSTALLFOLDER" Guid="{9338F265-39CC-4FE9-A2C4-23110C5984C5}">
-                <File Id="fil3861DDA5FAC6B55ED05EA3EC3DB8996A" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Microsoft.Practices.Unity.xml" />
+            <Component Win64 ="yes" Id="cmp3DA176587AAA90C2405BEA615A4E9308" Directory="INSTALLFOLDER" Guid="{613F77F5-9F41-4CE0-BEED-323FDEA17DD5}">
+                <File Id="fil5AD550400961120BFCFAD367E5C089E3" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.xml" />
             </Component>
-            <Component Win64="yes" Id="cmp59564654D02343646998A8D6A6F0C25F" Directory="INSTALLFOLDER" Guid="{4B5E957B-CE37-405C-85F7-9D8A3DABF6E7}">
-                <File Id="fil86F2842A309A2CABD479166F2B4E0588" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Prism.dll" />
+            <Component Win64 ="yes" Id="cmpCFA8F064372A36F9EE1B802542E54972" Directory="INSTALLFOLDER" Guid="{834AAA65-13FC-4F00-A1A3-A00FA21082AE}">
+                <File Id="fil3861DDA5FAC6B55ED05EA3EC3DB8996A" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Microsoft.Practices.Unity.xml" />
             </Component>
-            <Component Win64="yes" Id="cmpB14F439A672995E8C21CF183A6BFBAF7" Directory="INSTALLFOLDER" Guid="{75027776-64A3-4CB8-AFEF-7F2F3A647F83}">
-                <File Id="fil24C14D8A6734AD7E4E788B8DC53D85CE" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Prism.Unity.Wpf.dll" />
+            <Component Win64 ="yes" Id="cmp59564654D02343646998A8D6A6F0C25F" Directory="INSTALLFOLDER" Guid="{7D59CF33-019C-4356-AA93-8AE36B5A5434}">
+                <File Id="fil86F2842A309A2CABD479166F2B4E0588" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Prism.dll" />
             </Component>
-            <Component Win64="yes" Id="cmpBDF2367489D6F6AD0854598867940252" Directory="INSTALLFOLDER" Guid="{3F9D27A2-1B90-4D6D-B311-FBF1015DA8DB}">
-                <File Id="filBE8E40753BA0D9E95DFED9F626B79606" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Prism.Unity.Wpf.xml" />
+            <Component Win64 ="yes" Id="cmpB14F439A672995E8C21CF183A6BFBAF7" Directory="INSTALLFOLDER" Guid="{BD839DCB-524B-4C53-A443-95346A0D3EA8}">
+                <File Id="fil24C14D8A6734AD7E4E788B8DC53D85CE" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Prism.Unity.Wpf.dll" />
             </Component>
-            <Component Win64="yes" Id="cmpA9A2AB3353E22A8DA16EAAEE63473B2F" Directory="INSTALLFOLDER" Guid="{2CE1DBDC-22BA-4175-8494-DFCC6A653B7D}">
-                <File Id="fil88EDC55735A4B2968B2469EF3EB5D6E7" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Prism.Wpf.dll" />
+            <Component Win64 ="yes" Id="cmpBDF2367489D6F6AD0854598867940252" Directory="INSTALLFOLDER" Guid="{CBA3E0E4-E3AA-432F-B2BF-B6109458735A}">
+                <File Id="filBE8E40753BA0D9E95DFED9F626B79606" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Prism.Unity.Wpf.xml" />
             </Component>
-            <Component Win64="yes" Id="cmp798298EE62585DD47C2630B67548137A" Directory="INSTALLFOLDER" Guid="{B98AE62F-870B-41AB-AFD5-DA3E6AE0CA74}">
-                <File Id="filC9EAA24E4859AC74B4899CCEB9A8ABAB" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Prism.Wpf.xml" />
+            <Component Win64 ="yes" Id="cmpA9A2AB3353E22A8DA16EAAEE63473B2F" Directory="INSTALLFOLDER" Guid="{16248C4C-68BD-465B-8275-BAAD4AB3074F}">
+                <File Id="fil88EDC55735A4B2968B2469EF3EB5D6E7" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Prism.Wpf.dll" />
             </Component>
-            <Component Win64="yes" Id="cmp8FB310F9B7BB1FD7615BBB9DC1ACCD20" Directory="INSTALLFOLDER" Guid="{2A5392D6-F0DB-48E9-86B9-9022B9BA5013}">
-                <File Id="fil87DE65098BE319EDF72E6937036FA6EB" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\Prism.xml" />
+            <Component Win64 ="yes" Id="cmp798298EE62585DD47C2630B67548137A" Directory="INSTALLFOLDER" Guid="{D8A420C6-06C9-4EC5-A521-A8826E4338D7}">
+                <File Id="filC9EAA24E4859AC74B4899CCEB9A8ABAB" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Prism.Wpf.xml" />
             </Component>
-            <Component Win64="yes" Id="cmp82BB87E77704CFDC8446C1E81EF617B2" Directory="INSTALLFOLDER" Guid="{37973B52-0D07-4A46-8326-0B0D882EC7D4}">
-                <File Id="fil30FCCCA9BA35E0E49C489560FEC4F348" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\SampleBackendApplication.exe" />
+            <Component Win64 ="yes" Id="cmp8FB310F9B7BB1FD7615BBB9DC1ACCD20" Directory="INSTALLFOLDER" Guid="{641743FB-B662-4B00-B4C4-F94407FBADEB}">
+                <File Id="fil87DE65098BE319EDF72E6937036FA6EB" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\Prism.xml" />
             </Component>
-            <Component Win64="yes" Id="cmpBF09D60792A5B9DF4CFF87261C44E240" Directory="INSTALLFOLDER" Guid="{8DA07FC3-2ABD-42AB-BC37-271A3CBFEEA9}">
-                <File Id="filA1C1EAA71073B6ECB9AC577217D2EF1A" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\ShellProject.exe" />
+            <Component Win64 ="yes" Id="cmpBF09D60792A5B9DF4CFF87261C44E240" Directory="INSTALLFOLDER" Guid="{91AABCB1-7609-4283-9015-C128301B3076}">
+                <File Id="filA1C1EAA71073B6ECB9AC577217D2EF1A" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\ShellProject.exe" />
             </Component>
-            <Component Win64="yes" Id="cmp1A0C7D3C5953F81E0D33922E0C5BAC4C" Directory="INSTALLFOLDER" Guid="{52284705-0287-4179-B46A-B0377ABDC908}">
-                <File Id="filFFE098CFDD56F5A74FFAA414EC49D9F4" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\SignIn.dll" />
+            <Component Win64 ="yes" Id="cmp4253D192DA93F7376EE1408F85B6235A" Directory="INSTALLFOLDER" Guid="{872B8BC9-69B8-4111-BA36-246D4AAF56C2}">
+                <File Id="fil1DCE1EC258476D8F0807620AD61FB8EF" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\ShellProject.exe.config" />
             </Component>
-            <Component Win64="yes" Id="cmp017BFB3832A5B110A2B3A350E13F2A5C" Directory="INSTALLFOLDER" Guid="{3BB4A9FF-F433-4043-A09A-F7B4AE704170}">
-                <File Id="fil17E34524E8398461D615894C92558FE9" KeyPath="yes" Source="D:\source\repos\WixSetupProject\SampleProject\ShellProject\bin\Release\System.Windows.Interactivity.dll" />
+            <Component Win64 ="yes" Id="cmp1A0C7D3C5953F81E0D33922E0C5BAC4C" Directory="INSTALLFOLDER" Guid="{6F6DA77A-EBF5-45F5-AA62-973DD710C6B5}">
+                <File Id="filFFE098CFDD56F5A74FFAA414EC49D9F4" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\SignIn.dll" />
+            </Component>
+            <Component Win64 ="yes" Id="cmp017BFB3832A5B110A2B3A350E13F2A5C" Directory="INSTALLFOLDER" Guid="{802433BE-21AF-4A7F-9F1E-01D7A7969A73}">
+                <File Id="fil17E34524E8398461D615894C92558FE9" KeyPath="yes" Source="D:\source\repos\WixDemoApplication\SampleProject\ShellProject\bin\Release\System.Windows.Interactivity.dll" />
             </Component>
         </ComponentGroup>
     </Fragment>

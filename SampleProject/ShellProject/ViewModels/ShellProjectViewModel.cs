@@ -15,6 +15,7 @@ namespace ShellProject.ViewModels
         public ShellProjectViewModel(IEventAggregator eventAggregator)
         {
             _eventAggregator = eventAggregator;
+            Console.WriteLine("Constructor called in Shell Project");
         }
         public bool IsNavigationTarget(NavigationContext navigationContext) => true;
         
@@ -26,7 +27,7 @@ namespace ShellProject.ViewModels
 
         public void OnNavigatedTo(NavigationContext navigationContext)
         {
-            
+            Console.WriteLine("OnNavigated called in Shell Project");
         }
     }
 }

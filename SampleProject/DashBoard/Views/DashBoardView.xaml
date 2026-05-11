@@ -10,7 +10,7 @@
             >
     <Grid Background="AliceBlue">
         <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="Welcome"   FontSize="30"></TextBlock>
+            <TextBlock Text="Welcome Deamon"   FontSize="30"></TextBlock>
             <Button Width="100" Height="50" Click="Button_Click">Exit</Button>
         </StackPanel>
         
