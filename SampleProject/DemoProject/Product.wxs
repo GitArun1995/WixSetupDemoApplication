@@ -28,8 +28,37 @@
 
     <UIRef Id="WixUI_InstallDir" />
 
+    <!--uncommnet if not required license screen and remove WixUILicenseRtf tag-->
+    <!--<UI>
+
+      -->
+    <!-- Import standard InstallDir dialogs -->
+    <!--
+      <UIRef Id="WixUI_InstallDir" />
+      <UIRef Id="WixUI_Common" />
+
+      -->
+    <!-- Skip License dialog -->
+    <!--
+      <Publish Dialog="WelcomeDlg"
+               Control="Next"
+               Event="NewDialog"
+               Value="InstallDirDlg"
+               Order="2">1</Publish>
+
+      -->
+    <!-- Back button -->
+    <!--
+      <Publish Dialog="InstallDirDlg"
+               Control="Back"
+               Event="NewDialog"
+               Value="WelcomeDlg"
+               Order="2">1</Publish>
+
+    </UI>-->
+
     <!-- ICON FOR PROGRAMS LIST -->
-    
+
 
     <Feature Id="ProductFeature" Level="1">
       <ComponentGroupRef Id="ProductComponents" />
