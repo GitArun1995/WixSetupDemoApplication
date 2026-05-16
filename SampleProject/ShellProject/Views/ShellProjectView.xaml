@@ -11,10 +11,23 @@
     WindowState="Maximized"
     WindowStyle="None"
         Title="ShellProjectView" >
-    <Grid Background="Transparent">
-        <ContentControl
-            prism:RegionManager.RegionName="MainRegion"
-            Background="#fafafa"
-            Focusable="False" />
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Header -->
+            <RowDefinition Height="*"/>
+            <!-- Main content -->
+            <RowDefinition Height="Auto"/>
+            <!-- Footer -->
+        </Grid.RowDefinitions>
+
+        <!-- Header Region -->
+        <ContentControl prism:RegionManager.RegionName="HeaderRegion" Grid.Row="0" Background="LightBlue" Height="50"/>
+
+        <!-- Main Region -->
+        <ContentControl prism:RegionManager.RegionName="MainRegion" Grid.Row="1" Background="WhiteSmoke"/>
+
+        <!-- Footer Region -->
+        <ContentControl prism:RegionManager.RegionName="FooterRegion" Grid.Row="2" Background="LightGray" Height="30"/>
     </Grid>
 </Window>

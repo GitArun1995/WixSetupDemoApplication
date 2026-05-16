@@ -31,6 +31,7 @@ namespace SignIn.Views
         private void SignInClick(object sender, RoutedEventArgs e)
         {
             _regionManager.RequestNavigate("MainRegion", "DashBoardView");
+            _regionManager.RequestNavigate("HeaderRegion", "HeaderView");
         }
     }
 }

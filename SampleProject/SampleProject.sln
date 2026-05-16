@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashBoard", "DashBoard\Dash
 EndProject
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "DemoProject", "DemoProject\DemoProject.wixproj", "{E179CC3A-AA55-44B5-95B8-BD1254523E0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Header", "Header\Header.csproj", "{B9DB4CF6-5D31-4E9F-97D0-033D400B1680}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,14 @@ Global
 		{E179CC3A-AA55-44B5-95B8-BD1254523E0B}.Release|Any CPU.ActiveCfg = Release|x86
 		{E179CC3A-AA55-44B5-95B8-BD1254523E0B}.Release|x86.ActiveCfg = Release|x86
 		{E179CC3A-AA55-44B5-95B8-BD1254523E0B}.Release|x86.Build.0 = Release|x86
+		{B9DB4CF6-5D31-4E9F-97D0-033D400B1680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DB4CF6-5D31-4E9F-97D0-033D400B1680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DB4CF6-5D31-4E9F-97D0-033D400B1680}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B9DB4CF6-5D31-4E9F-97D0-033D400B1680}.Debug|x86.Build.0 = Debug|Any CPU
+		{B9DB4CF6-5D31-4E9F-97D0-033D400B1680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DB4CF6-5D31-4E9F-97D0-033D400B1680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DB4CF6-5D31-4E9F-97D0-033D400B1680}.Release|x86.ActiveCfg = Release|Any CPU
+		{B9DB4CF6-5D31-4E9F-97D0-033D400B1680}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

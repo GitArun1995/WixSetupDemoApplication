@@ -5,6 +5,7 @@ using System.Windows;
 using Microsoft.Practices.Unity;
 using SignIn;
 using DashBoard;
+using Header;
 
 namespace ShellProject
 {
@@ -28,6 +29,7 @@ namespace ShellProject
 
             catalog.AddModule(typeof(SignInModule));
             catalog.AddModule(typeof(DashBoardModule));
+            catalog.AddModule(typeof(HeaderModule));
         }
     }
 }
