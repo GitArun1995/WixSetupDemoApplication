@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/MaterialColors/MaterialColorAmber.xaml" />
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryMerged.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

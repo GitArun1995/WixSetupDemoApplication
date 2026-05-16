@@ -131,6 +131,10 @@
       <Project>{B9DB4CF6-5D31-4E9F-97D0-033D400B1680}</Project>
       <Name>Header</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MaterialDesign\MaterialDesign.csproj">
+      <Project>{e041d4b0-cbf0-4282-b3b9-9be7cfc7f290}</Project>
+      <Name>MaterialDesign</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SignIn\SignIn.csproj">
       <Project>{E6008AAA-38C6-4C59-AEC9-3EA5694C98E6}</Project>
       <Name>SignIn</Name>

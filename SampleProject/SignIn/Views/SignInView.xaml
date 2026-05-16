@@ -91,7 +91,7 @@
 
         <!-- SIGN IN BUTTON -->
         <Style x:Key="SignInButtonStyle" TargetType="Button">
-            <Setter Property="Background" Value="#0066CC"/>
+            <Setter Property="Background" Value="{DynamicResource Primary700}"/>
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="BorderThickness" Value="0"/>
             <Setter Property="Height" Value="48"/>

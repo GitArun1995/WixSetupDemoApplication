@@ -1,0 +1,43 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <ResourceDictionary.MergedDictionaries>
+        <!--<ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryShadows.xaml" />-->
+        <!--<ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryScrollbar.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryMenu.xaml" />
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryDataGrid.xaml" />
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryCheckBox.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryRadio.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryText.xaml" />
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryButton.xaml" />
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryProgressBar.xaml" />
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryTextBox.xaml" />
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryPasswordBox.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryCard.xaml" />
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryBorder.xaml" />
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionarySeparator.xaml" />
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryComboBox.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryTree.xaml" />
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryToggleButton.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryTab.xaml" />
+        <ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryStatusBar.xaml" />-->
+        <!--<ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryCalender.xaml" />-->
+        <!--<ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionaryToolTip.xaml" />-->
+        <!--<ResourceDictionary
+            Source="pack://application:,,,/MaterialDesign;component/Themes/DictionarySlider.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/ToastNotifications.Messages;component/Themes/Default.xaml" />-->
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
