@@ -1,0 +1,26 @@
+name: Build WPF Application
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v2
+
+      - name: Restore NuGet packages
+        run: nuget restore SampleProject/SampleProject.sln
+
+      - name: Build Solution
+        run: msbuild SampleProject/SampleProject.sln /p:Configuration=Release
