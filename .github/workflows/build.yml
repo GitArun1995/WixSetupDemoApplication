@@ -24,3 +24,10 @@ jobs:
 
       - name: Build Solution
         run: msbuild SampleProject/SampleProject.sln /p:Configuration=Release
+        
+      - name: Upload Build Output
+        uses: actions/upload-artifact@v4
+        with:
+          name: WPF-Build
+          path: |
+            SampleProject/**/bin/Release/**
